@@ -1,4 +1,4 @@
-# Real-Time Collaborative Editor
+## Real-Time Collaborative Editor
 
 A Real-Time Collaborative Text Editor built using JavaFX, WebSockets, and Java Input/Output Streams. This application allows multiple users to collaboratively edit text files in real time with instant synchronization across all connected clients.
 
