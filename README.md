@@ -93,11 +93,24 @@ RealTimeCollaborativeEditor
 
 ## How to Run
 
+### Prerequisites
+- Java Development Kit (JDK 8 or higher)
+- JavaFX properly configured in your IDE or included via VM options
+- All clients must be connected to the same local network (LAN)
+
 ### Start the Server
-- Use * runServer.bat * this batch file will run the server
-- Use * runClient.bat * this batch file creates a client that is linked to the server
-- can create as many clients we needed with same LAN
-Multiple clients can be launched to test real-time collaboration.
+- Execute the `runServer.bat` file to start the collaboration server.
+- The server listens for incoming client connections and manages real-time synchronization.
+
+### Start the Client
+- Execute the `runClient.bat` file to launch a client instance.
+- Each execution creates a new client connected to the server.
+- Multiple clients can be launched on the same LAN to test real-time collaboration.
+
+### Additional Notes
+- JavaFX must be configured correctly in the IDE using the required VM options.
+- Additional clients can also be launched by executing the packaged JAR file.
+- Ensure the server is running before starting any client instances.
 
 ---
 
