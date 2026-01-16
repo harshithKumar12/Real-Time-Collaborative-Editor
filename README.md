@@ -123,6 +123,15 @@ Multiple clients can be launched to test real-time collaboration.
 
 ## Screenshots
 
+### Client User Interface
+![Client UI](screenshots/client_UI.png)
+
+### Multiple Clients Collaborating in Real Time
+![Multiple Clients UI](screenshots/multi_client_UI.png)
+
+### Project Structure
+![Project Tree](screenshots/project_tree.png)
+
 ## Author
 
 Harshith Kumar B K (For College)
